@@ -84,3 +84,8 @@ services:
 volumes:
   postgres_data:
     driver: local
+
+networks:
+  milvus_network:
+    driver: bridge
+    name: milvus_network 
